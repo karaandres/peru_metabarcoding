@@ -6,12 +6,14 @@ In this project, we test the effectiveness of using environmental DNA (eDNA) app
 
 ### Methodological approach
 **eDNA sampling:** 
-  - At each sampling site, we collected triplicate 250 mL surface water samples and one field blank. Environmental measurements characterizing the hydrology and water chemistry of the rivers were taken at each sample point. DNA was extracted and PCR-amplified using a fish-specific mitochondrial 12S rDNA primer pair (MiFish, [Miya et al.](https://royalsocietypublishing.org/doi/10.1098/rsos.150088)). 
+  - At each sampling site, we collected triplicate 250 mL surface water samples and one field blank 
+  - Environmental measurements characterizing the hydrology and water chemistry of the rivers were taken at each sample point
+  - DNA was extracted and PCR-amplified using a fish-specific mitochondrial 12S rDNA primer pair (MiFish, [Miya et al.](https://royalsocietypublishing.org/doi/10.1098/rsos.150088)). 
 
 **Sequencing:** 
   - Illumina NextSeq 300 bp Mid output kit
-  - Sample metadata: (link here once added to repository)
-
+  - Sample metadata: [Peru_sample_metadata.txt](Peru_sample_metadata.txt)
+  
 **Analysis:**
 1. Quality control (MultiQC)
    - Script: 
