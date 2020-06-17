@@ -7,32 +7,35 @@ characterize fish diversity in the western Amazon Basin and examine the factors 
 
 ### Methodological approach
 **eDNA sampling:** At each sampling site, we collected triplicate 250 mL surface water samples and one field blank. Environmental measurements characterizing the hydrology and water chemistry of the rivers were taken at each sample point. DNA was extracted and PCR-amplified using a fish-specific mitochondrial 12S rDNA primer pair (MiFish, [Miya et al.](https://royalsocietypublishing.org/doi/10.1098/rsos.150088)). 
+
 **Sequencing:** 
-- Illumina NextSeq 300 bp Mid output kit
-- Sample metadata: (link here)
+  - Illumina NextSeq 300 bp Mid output kit
+  - Sample metadata: (link here)
 
-**Analysis**
+**Analysis:**
 1. Quality control (MultiQC)
-
+   - Script: 
+   - Output files: 
+   
 2. Denoising and error removal (DADA2)
-- Scripts:
-- Output files: 
+   - Scripts:
+   - Output files: 
 
 3. Assign taxonomic information to ASVs (BLASTn)
-- Used [tax_trace.pl](https://github.com/theo-allnutt-bioinformatics/scripts/blob/master/tax_trace.pl) to obtain higher taxonomic information from staxids
-- Scripts:
-- Output files: 
+   - Used [tax_trace.pl](https://github.com/theo-allnutt-bioinformatics/scripts/blob/master/tax_trace.pl) to obtain higher taxonomic information from staxids
+   - Scripts:
+   - Output files: 
 
 4. Data filtering
-- Removed ASVs with low read counts and non-target taxa
-- Scripts:
-- Output files:
+   - Removed ASVs with low read counts and non-target taxa
+   - Scripts:
+   - Output files:
 
 5. Diversity metrics and site comparisons
-- Scripts:
-- Output files: 
+   - Scripts:
+   - Output files: 
 
 6. Comparison to species list
-- Compare species matches to fisheries landings data from ()
-- Scripts:
-- Output files: 
+   - Compare species matches to fisheries landings data from ()
+   - Scripts:
+   - Output files: 
