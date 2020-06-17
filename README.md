@@ -16,8 +16,8 @@ In this project, we test the effectiveness of using environmental DNA (eDNA) app
   
 **Analysis:**
 1. Quality control (MultiQC)
-   - Script: 
-   - Output files: 
+   - Script: [multiqc.sh](multiqc.sh)
+   - Output files: [multiqc_report.html](multiqc_report.html)
    
 2. Denoising and error removal (DADA2)
    - Script: 
