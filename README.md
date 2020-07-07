@@ -19,8 +19,11 @@ In this project, we test the effectiveness of using environmental DNA (eDNA) app
    - Script: [multiqc.sh](multiqc.sh)
    - Output files: [multiqc_report.html](https://karaandres.github.io/peru_metabarcoding/multiqc_report.html)
    
-2. Denoising and error removal (DADA2)
-   - Script: 
+2. Trim heterogeneity spacers: [Trimming_HS_Metagenomics](https://github.com/noushing/Trimming_HS_Metagenomics)
+   - Scripts: [Trimming_HS_Primers.pl](Trimming_HS_Primers.pl), forward reads: [Running_Script_R1.sh](Running_Script_R1), reverse reads: [Running_Script_R2.sh](Running_Script_R2.sh)
+   
+3. Denoising and error removal (DADA2)
+   - Script: [dada2_peru_metabarcoding.sh](dada2_peru_metabarcoding.sh)
    - Output files: 
 
 3. Assign taxonomic information to ASVs (BLASTn)
